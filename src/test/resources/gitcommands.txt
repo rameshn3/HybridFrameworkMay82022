@@ -25,3 +25,15 @@ if you want to add all the files those are modified in current branch?
 git add .
 
  8)use "git restore <file>..." to discard changes in working directory)
+ 
+9)save/commit all the changes
+git commit -m"my new changes to pages component"
+
+10)after commit to know the changes are present or not provide below command
+$ git status
+On branch test123
+nothing to commit, working tree clean
+
+11)push all the changes to remote repository
+git push origin <branchname>
+git push origin test123  
