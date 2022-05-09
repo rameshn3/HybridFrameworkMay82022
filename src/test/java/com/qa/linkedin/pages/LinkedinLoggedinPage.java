@@ -43,10 +43,13 @@ public void verifyProfileRailCard() {
 	wait.until(ExpectedConditions.visibilityOf(profileRailCard));
 	Assert.assertTrue(profileRailCard.isDisplayed());
 }
-
+/**
+*this method perform the signout
+*/
 public void doSignOut() throws InterruptedException {
 	log.debug("Performing the doSignout action....");
 	  click(profileImageIcon);
+	  wait.until(ExpectedConditions.visibilityOf(signOutLink);
 	  log.debug("click on Signout link");
 	  click(signOutLink);
 	  
