@@ -38,9 +38,17 @@ nothing to commit, working tree clean
 git push origin <branchname>
 git push origin test123
 
+update the branch with main branch
+1)checkout to main branch 
+git checkout main
+2)pull the all latest main branch changes
+git pull origin main
+3)checkout to your branch
+git checkout test2
+4)pull all the main changes to your branch
+git pull origin main
+
 12)once you push all the changes to remote repository create a pull request[PR] 
 in ui you can find the option compare & Pull request.
 provide the description of changes
-then click on create Pull Request
-git pull origin main 
-Updating my branch with main
+then click on create Pull Request:
