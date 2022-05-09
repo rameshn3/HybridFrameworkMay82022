@@ -1,0 +1,27 @@
+GIT Commands:
+1)to download the code from remote repository to local machine
+git clone <repositoryURL>
+
+2)create a branch on top main/master
+git branch <branchname>
+
+to switch to the created branch?
+git checkout <branchname>
+
+3)create a branch and checkout to the branch
+git checkout -b <branchname>
+
+5)to know you are in which branch?
+git branch
+  main
+* test123
+
+6)to know what are all the files modified
+git status
+
+7) use "git add <file>..." to update what will be committed)
+
+if you want to add all the files those are modified in current branch?
+git add .
+
+ 8)use "git restore <file>..." to discard changes in working directory)
