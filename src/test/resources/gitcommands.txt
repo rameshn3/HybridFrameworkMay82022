@@ -36,4 +36,9 @@ nothing to commit, working tree clean
 
 11)push all the changes to remote repository
 git push origin <branchname>
-git push origin test123  
+git push origin test123
+
+12)once you push all the changes to remote repository create a pull request[PR] 
+in ui you can find the option compare & Pull request.
+provide the description of changes
+then click on create Pull Request
