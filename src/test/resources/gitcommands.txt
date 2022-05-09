@@ -51,5 +51,4 @@ git pull origin main
 12)once you push all the changes to remote repository create a pull request[PR] 
 in ui you can find the option compare & Pull request.
 provide the description of changes
-then click on create Pull Request
-
+then click on create Pull Request:
