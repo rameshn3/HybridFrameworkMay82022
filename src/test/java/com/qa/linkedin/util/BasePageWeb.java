@@ -31,7 +31,7 @@ public class BasePageWeb extends TestBase {
 
 	private Logger log = Logger.getLogger(BasePageWeb.class);
 	Actions act;
-	// Constructor
+	// Constructor to initilize the objects
 	public BasePageWeb() {
 		
 		wait = new WebDriverWait(driver, Duration.ofSeconds(45));
